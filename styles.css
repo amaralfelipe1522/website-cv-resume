@@ -9,7 +9,7 @@
 }
 
 body{
-    background: #585c68;
+    background: #DCDCDC;
     font-size: 13px;
     line-height: 22px;
     color: #555555;
@@ -35,7 +35,7 @@ body{
 
 .resume .resume_left{
     width: 280px;
-    background: #0bb5f4;
+    background: #2f4f4f;
 }
 
 .resume .resume_left .resume_profile{
@@ -61,12 +61,12 @@ body{
 }
 
 .resume .resume_left .semi_bold{
-    color: #b1eaff;
+    color: #DCDCDC;
 }
 
 .resume .resume_item{
     padding: 25px 0;
-    border-bottom: 2px solid #b1eaff;
+    border-bottom: 2px solid #DCDCDC;
 }
 
 .resume .resume_left .resume_item:last-child{
@@ -93,9 +93,9 @@ body{
     width: 35px;
     height: 35px;
     background: #fff;
-    color: #0bb5f4;
-    border-radius: 50%;
-    margin-right: 5%;
+    color: #2f4f4f;
+    border-radius: 75%;
+    margin-right: 2%;
     font-size: 16px;
     position: relative;
 }
@@ -105,4 +105,68 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+.resume .resume_left ul li .data{
+    color: #DCDCDC;
+}
+
+.resume .resume_right{
+    width: 520px;
+    background: #fff;
+    padding: 25px;
+}
+
+.resume .resume_right .bold{
+    color: #2f4f4f;
+}
+
+.resume .resume_right .resume_work ul,
+.resume .resume_right .resume_education ul,
+.resume .resume_right .resume_courses ul{
+    padding-left: 40px;
+    overflow: hidden;
+}
+
+.resume .resume_right ul li{
+    position: relative;
+}
+
+.resume .resume_right ul li .date{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.resume .resume_right ul li .info{
+    margin-bottom: 20px;
+}
+
+.resume .resume_right ul li:last-child .info{
+    margin-bottom: 0;
+}
+.resume .resume_right .resume_work ul li::before,
+.resume .resume_right .resume_education ul li::before,
+.resume .resume_right .resume_courses ul li::before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 2px solid #2f4f4f;
+    background-color: #2f4f4f;
+}
+
+.resume .resume_right .resume_work ul li::after,
+.resume .resume_right .resume_education ul li::after,
+.resume .resume_right .resume_courses ul li::after{
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -21px;
+    width: 3px;
+    height: 400px;
+    background: #2f4f4f;
 }
