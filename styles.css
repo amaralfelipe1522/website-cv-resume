@@ -79,6 +79,12 @@ body{
     margin-bottom: 10px;
 }
 
+.resume .resume_left .skill_name{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
 .resume .resume_left ul li:last-child{
     margin-bottom: 0;
 }
